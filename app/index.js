@@ -237,12 +237,12 @@ const nightPDF = (function () {
 
 		switch (preset) {
 			case 'default':
-				brightness.set(0);
+				brightness.set(20);
 				grayness.set(0);
 				inversion.set(100);
 				sepia.set(0);
 				hue.set(180);
-				extraBrightness.set(0);
+				extraBrightness.set(-20);
 				break;
 			case 'original':
 				brightness.set(0);
